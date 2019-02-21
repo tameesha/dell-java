@@ -13,8 +13,7 @@ public class TimesheetEntry {
 	private LocalDateTime startTime;
 	private LocalDateTime endTime;
 
-	// Here's my constructor. It initializes the variables projectName, task,
-	// startTime, and ID. NEXTID is incremented
+	// My constructor initializes the variables projectName, task, startTime, and ID
 	public TimesheetEntry(String myProject, String myTask) {
 		projectName = myProject;
 		task = myTask;

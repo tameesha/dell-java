@@ -1,8 +1,15 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class RockPaperScissors {
+public class RockPaperScissorsExceptions {
 	public static void main(String[] args) {
+		
+		// Start game
+				System.out.println("Hey! Let's play Rock Paper Scissors.");
+				System.out.println("Please enter your move as R for Rock, P for Paper, and S for Scissors.");
+				System.out.println("Good Luck!");
+
+				System.out.println();
 
 		// These are the moves the user makes
 		String playerMove;
@@ -20,12 +27,6 @@ public class RockPaperScissors {
 //		String Paper;
 //		String Scissors;
 
-		// Invite user to play
-		System.out.println("Hey! Let's play Rock Paper Scissors.");
-		System.out.println("Please enter your move as R for Rock, P for Paper, and S for Scissors.");
-		System.out.println("Good Luck!");
-
-		System.out.println();
 
 		// Generate computer's move (0,1,2)
 		computerInt = generator.nextInt(3) + 1;
